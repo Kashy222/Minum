@@ -1,0 +1,52 @@
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:600|Roboto');
+
+// Colors
+
+$black: #141414;
+$bg: #fafafa;
+$white: #ffffff;
+$main: #8e9c03;
+
+// General styling
+
+h1,
+h3,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    color: $black;
+    background-color: $bg;
+    font-weight: 400;
+}
+
+// mixins
+
+@mixin translateY($e) {
+    -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+    transform: translateY($e);
+}
+
+@mixin transition($e) {
+    -webkit-transition: $e;
+    -moz-transition: $e;
+    transition: $e;
+}
+
+@mixin boxShadow($e) {
+    -webkit-box-shadow: $e;
+    -moz-box-shadow: $e;
+    box-shadow: $e;
+}
+
+@mixin textShadow($e) {
+    -webkit-box-shadow: $e;
+    -moz-box-shadow: $e;
+    box-shadow: $e;
+}
