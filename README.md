@@ -3,6 +3,8 @@
 ## Free Porftolio Tempalate (HTML, SCSS)
 
 This template is free to use for both personal and commercial use.
+[Website preview.](https://shop.sigurdarson.is/minum)
+[Dribbble post.](https://dribbble.com/shots/6413506-Minum-Free-Portfolio-Template)
 
 ### Changing out the content
 
